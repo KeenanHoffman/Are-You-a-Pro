@@ -1,0 +1,90 @@
+body {
+  background-color: #212121;
+}
+.container {
+  color: #212121;
+  font-family: montserrat;
+}
+h4, h3 {
+  font-family: roboto;
+}
+.first {
+  overflow: hidden;
+  width: 100%;
+}
+.background {
+  opacity: .6;
+  width: 100%;
+  border-radius: 0 0 3rem 3rem;
+}
+.ontop {
+  position: absolute;
+  top: 4rem;
+}
+input {
+  border-radius: 1rem;
+  width: 22rem;
+}
+button {
+  background-color: #FFFF00;
+  margin-top: .5rem;
+  border-radius: .5rem;
+}
+.role:hover {
+  background-color: #212121;
+  color: #FFFF00;
+}
+.green {
+  font-size: 2rem;
+  width: 16rem;
+  height: 8rem;
+  margin-top: 4rem;
+  border-radius: 3rem;
+  background-color: #00C853;
+}
+.hover:hover {
+  width: 17rem;
+  height: 9rem;
+}
+footer {
+  margin-top: 2rem;
+  width: inherit;
+}
+.logo {
+  width: 35%;
+}
+.userStats, .proStats {
+  opacity: 0;
+  margin-top: 4rem;
+  background-color: #F5F5F5;
+  width: auto;
+  padding-bottom: 1.5rem;
+}
+.userStats {
+  border-radius: 3rem 0 0 3rem;
+  border-left: solid #212121 2px;
+  border-top: solid #212121 2px;
+  border-bottom: solid #212121 2px;
+  width: auto;
+}
+.proStats {
+  border-radius: 0 3rem 3rem 0;
+  border-right: solid #212121 2px;
+  border-top: solid #212121 2px;
+  border-bottom: solid #212121 2px;
+  padding-left: 1rem;
+}
+.labels {
+  color: #FFFF00;
+  margin-top: 5rem;
+  opacity: 0;
+  width: auto;
+  text-shadow:
+-1px -1px 0 #212121,
+    1px -1px 0 #212121,
+    -1px 1px 0 #212121,
+     1px 1px 0 #212121;
+}
+.again {
+  margin-top: 11.5rem;
+}

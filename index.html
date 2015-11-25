@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Are You a Pro?</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script type="text/javascript" src='jquery-1.11.3.min.js'></script>
+</head>
+
+<body>
+
+  <main class="container text-center">
+    <div class ="container first">
+      <img class="background" src="http://games-macdownload.com/wp-content/uploads/2015/08/league-oflegends-lol-mac.jpg" alt="background" />
+    </div>
+      <div class="container ontop">
+        <div class="row">
+          <form action="index.html" method="get">
+            <label for="summonerName"><h3>Enter Your Summoner Name</h3>
+              <div class="row">
+                <input id="summonerName" type="text" name="summonerName" placeholder="Your Summoner Name Here..." />
+              </div>
+            </label>
+          </form>
+          <button id="top" class="role">Top</button>
+          <button id="jungle" class="role">Jungle</button>
+          <button id="mid" class="role">Mid</button>
+          <button id="adc" class="role">ADC</button>
+          <button id="support" class="role">Support</button>
+          <div class="row" class="role">
+            <button id="submitName" class="green hover">Get Stats!</button>
+          </div>
+        </form>
+
+        <section class="stats text-center">
+          <div class="col-md-offset-3 col-md-1 labels text-right">
+            <h4>Summoner Name</h4>
+            <p>Kill Death Ratio</p>
+            <p>Average Kills Per Match</p>
+            <p>Average Assists Per Match</p>
+            <p>Average Deaths Per Match</p>
+            <p>Average Gold Per Minute</p>
+            <p>Average Gold Per Match</p>
+            <h4>Most Played Champion</h4>
+          </div>
+
+          <div class="col-md-1 userStats text-left">
+
+          </div>
+          <div class="col-md-1 proStats text-left">
+
+          </div>
+
+        </section>
+      </div>
+    </div>
+    <footer class="row">
+      <div class="col-md-12">
+        <img class="logo" src="http://vignette1.wikia.nocookie.net/leagueoflegends/images/8/86/League_of_legends_logo_transparent.png/revision/latest?cb=20131023175853" alt="logo" />
+      </div>
+    </footer>
+  </main>
+  <script src="app.js" type="text/javascript"></script>
+  <script src="data.js" type="text/javascript"></script>
+
+</body>
+
+</html>
