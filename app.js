@@ -171,7 +171,7 @@ function parseMatches(matchId, matchLengthArray, x) {
     var rawStats = JSON.parse(this.responseText);
 
     matchLengthArray.push(rawStats.matchDuration);
-    
+
     //Checks if the match is the last in the array
     if (x === 0) {
       matchLengthTotal = matchLengthArray.reduce(function(prev, curr) {
@@ -281,31 +281,31 @@ function printStatsToPagePro(role) {
     for (var dyrusKey in proStats.dyrus) {
       $proStats.append( '<p>' + proStats.dyrus[dyrusKey] + '</p>' );
     }
-    $proStats.append('<img src="http://ddragon.leagueoflegends.com/cdn/4.4.3/img/champion/Rumble.png"/>');
+    $proStats.append('<img src="https://ddragon.leagueoflegends.com/cdn/4.4.3/img/champion/Rumble.png"/>');
   } else if (role === 'jungle') {
     $proStats.append( '<h4>C9 Meteos</h4>' );
     for (var meteosKey in proStats.meteos) {
       $proStats.append( '<p>' + proStats.meteos[meteosKey] + '</p>' );
     }
-    $proStats.append('<img src="http://ddragon.leagueoflegends.com/cdn/4.4.3/img/champion/Nidalee.png"/>');
+    $proStats.append('<img src="https://ddragon.leagueoflegends.com/cdn/4.4.3/img/champion/Nidalee.png"/>');
   } else if (role === 'mid') {
     $proStats.append( '<h4>Scarra</h4>' );
     for (var scarraKey in proStats.scarra) {
       $proStats.append( '<p>' + proStats.scarra[scarraKey] + '</p>' );
     }
-    $proStats.append('<img src="http://ddragon.leagueoflegends.com/cdn/4.4.3/img/champion/Vayne.png"/>');
+    $proStats.append('<img src="https://ddragon.leagueoflegends.com/cdn/4.4.3/img/champion/Vayne.png"/>');
   } else if (role === 'adc') {
     $proStats.append( '<h4>C9 Sneaky</h4>' );
     for (var sneakyKey in proStats.sneaky) {
       $proStats.append( '<p>' + proStats.sneaky[sneakyKey] + '</p>' );
     }
-    $proStats.append('<img src="http://ddragon.leagueoflegends.com/cdn/4.4.3/img/champion/Lucian.png"/>');
+    $proStats.append('<img src="https://ddragon.leagueoflegends.com/cdn/4.4.3/img/champion/Lucian.png"/>');
   } else if (role === 'support') {
     $proStats.append( '<h4>C9 Bunny Fufuu</h4>' );
     for (var bunnyKey in proStats.bunny) {
       $proStats.append( '<p>' + proStats.bunny[bunnyKey] + '</p>' );
     }
-    $proStats.append('<img src="http://ddragon.leagueoflegends.com/cdn/4.4.3/img/champion/Thresh.png"/>');
+    $proStats.append('<img src="https://ddragon.leagueoflegends.com/cdn/4.4.3/img/champion/Thresh.png"/>');
   }
 }
 
@@ -326,7 +326,7 @@ function getChampName(champId) {
 //Adds the most played champion to the page and reveals content
 function getChampSprite(picture) {
   //Adds the most played champion to the page
-  $userStats.append('<img src="http://ddragon.leagueoflegends.com/cdn/4.4.3/img/champion/' + picture + '"/>');
+  $userStats.append('<img src="https://ddragon.leagueoflegends.com/cdn/4.4.3/img/champion/' + picture + '"/>');
 
   //Reveals content
   $proStats.css('opacity', 1);
